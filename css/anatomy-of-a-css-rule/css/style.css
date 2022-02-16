@@ -1,0 +1,7 @@
+/* “body” is the element, followed by a single space, then a left curly */
+body {
+  /* Always indent by two spaces, not tabs */
+  /* Property name: property value; */
+  background-color: yellow;
+}
+/* Always end the rule with a right curly alone on the last line of the rule */
