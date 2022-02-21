@@ -1,0 +1,21 @@
+body {
+  background-color: cyan;
+  background-color: #00ffff;
+  background-color: #00FFFF;
+  background-color: #00ffffaa;
+  background-color: #00FFFFAA;
+  background-color: #0ff;  /* Shortcut for line 3 */
+  background-color: #0FF;  /* Shortcut for line 4 */
+  background-color: #0ffa; /* Shortcut for line 5 */
+  background-color: #0FFA; /* Shortcut for line 6 */
+  background-color: rgb(0, 255, 255);
+  background-color: rgba(0, 255, 255, .28); /* 28% transparency */
+  background-color: rgb(0%, 100%, 100%);
+  background-color: hsl(180, 100%, 50%);
+  background-color: hsla(180, 100%, 50%, 28%);
+  /* Play with HSL/RGB at https://code-warrior.github.io/tutorials/css/colors/hsl/ */
+}
+
+h1 {
+  color: #222;
+}
