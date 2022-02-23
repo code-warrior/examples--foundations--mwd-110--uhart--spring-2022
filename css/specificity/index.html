@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Working with Specificity</title>
+  <style>
+    p {
+      background-color: yellow;
+    }
+
+    footer p {
+      background-color: #ccc;
+    }
+
+    header {
+      border-radius: 20px;
+      border: 1px solid #999;
+      line-height: 1;
+    }
+
+    /* No need to ever start a selector chain in a rule with “html” or “body”: All elements start with both */
+    /* 0, 0, 4 */
+    html > head + body > header {
+      font-size: 3rem;
+      text-align: center;
+      line-height: 0;
+    }
+
+    /* 0, 1, 4 */
+    header + main + footer > p.small {
+      padding: 24px;
+    }
+
+    /* 0, 1, 0 */
+    .small {
+      font-size: .75rem;
+    }
+
+    /* 1, 2, 0 */
+    #important-copyright.super.small {
+      font-size: 2px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Working with Specificity</h1>
+  </header>
+  <main>
+    <p>Refer to <a href="https://code-warrior.github.io/tutorials/css/css-specificity/">this</a> table</p>
+    <p>Also refer to <a href="https://specificity.keegan.st/">Keegan St</a> for the specificity calculator</p>
+  </main>
+  <footer>
+    <p>&copy; 2022 Computers Rule Unlimited</p>
+    <p id="important-copyright" class="super small">Privacy Policy</p>
+  </footer>
+</body>
+</html>
