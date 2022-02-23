@@ -1,0 +1,11 @@
+.warning {
+  background-color: yellow;
+}
+
+.danger {
+  border: 1px solid red;
+}
+
+.warning.danger {
+  font-size: 2rem;
+}
