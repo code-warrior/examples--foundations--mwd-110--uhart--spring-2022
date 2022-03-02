@@ -1,0 +1,8 @@
+p:nth-child(1) {
+  font-style: italic;
+}
+
+p:nth-child(2) {
+  font-family: 'BhuTuka Expanded One', cursive;
+  font-style: italic;
+}
