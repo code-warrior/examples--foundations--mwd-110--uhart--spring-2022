@@ -1,0 +1,8 @@
+body {
+  margin: auto;
+  width: 80%;
+}
+
+p {
+  line-height: 1.125; /* Using an integer or a floating-point value means it’s a percentage of the font size */
+}
