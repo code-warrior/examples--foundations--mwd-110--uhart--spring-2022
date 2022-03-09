@@ -1,0 +1,10 @@
+/* The properties on lines 3–8 are all defined in the shortcut on line 9 */
+body {
+  /* font-style: italic;
+  font-variant: small-caps;
+  font-weight: 400;
+  font-size: 1.2em;
+  line-height: 1.8;
+  font-family: Arial, Helvetica, sans-serif; */
+  font: italic small-caps 400 1.2em / 1.8 Arial, Helvetica, sans-serif;
+}
