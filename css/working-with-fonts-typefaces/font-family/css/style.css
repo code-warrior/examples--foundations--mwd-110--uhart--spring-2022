@@ -1,0 +1,18 @@
+:root {
+  --font-family--reading: 'Georgia', 'Times New Roman', serif;
+  --font-family--headings: 'Courier New', 'Courier', monospace;
+}
+
+/* serif, sans-serif, monospace, fantasy, cursive; */
+body {
+  font-family: var(--font-family--reading);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-family--headings);
+}
