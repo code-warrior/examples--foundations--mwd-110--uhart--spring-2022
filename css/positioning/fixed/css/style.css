@@ -1,0 +1,13 @@
+body {
+  height: 2000px;
+}
+
+b {
+  border: 1px solid grey;
+  border-radius: 4px;
+  padding: 4px;
+  background-color: pink;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
