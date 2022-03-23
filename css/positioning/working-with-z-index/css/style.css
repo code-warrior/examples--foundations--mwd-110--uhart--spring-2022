@@ -1,0 +1,44 @@
+:root {
+  --box-width: 200px;
+}
+
+h1 {
+  text-align: center;
+}
+
+main {
+  position: fixed;
+  top: var(--box-width);
+  left: calc(50% - (calc(var(--box-width) / 2)));
+}
+
+div {
+  position: absolute;
+  margin: auto;
+  width: var(--box-width);
+  height: var(--box-width);
+}
+
+#pink {
+  z-index: 1;
+  transform: rotate(10deg);
+  background-color: pink;
+}
+
+#blue-violet {
+  z-index: 2;
+  transform: rotate(20deg);
+  background-color: blueviolet;
+}
+
+#green-yellow {
+  z-index: 4;
+  transform: rotate(30deg);
+  background-color: greenyellow;
+}
+
+#red {
+  z-index: 3;
+  transform: rotate(40deg);
+  background-color: red;
+}
