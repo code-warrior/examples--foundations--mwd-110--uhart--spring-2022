@@ -3,11 +3,11 @@ body {
 }
 
 b {
+  position: fixed;
+  top: 10px;
+  left: 10px;
   border: 1px solid grey;
   border-radius: 4px;
   padding: 4px;
   background-color: pink;
-  position: fixed;
-  top: 10px;
-  left: 10px;
 }
