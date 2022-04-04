@@ -1,0 +1,41 @@
+h1 {
+  text-align: center;
+}
+
+body {
+  font-variant: small-caps;
+  font-style: italic;
+  font-family: monospace;
+}
+
+p {
+  margin-top: 20px;
+  margin-left: 14px;
+}
+p.highlight {
+  background-color: yellow;
+}
+
+main h3 {
+  background-color: pink;
+}
+
+main ul li:first-of-type {
+  background-color: pink;
+}
+
+a:link {
+  color: red;
+  border: 2px solid transparent;
+}
+a:visited {
+  color: pink;
+}
+a:hover {
+  border: 2px solid green;
+}
+a:active {
+  border-radius: 8px;
+}
+
+/*# sourceMappingURL=style.css.map */
