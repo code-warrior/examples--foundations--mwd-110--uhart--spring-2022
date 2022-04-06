@@ -1,0 +1,33 @@
+@use "sass:math";
+
+// Grid Variables
+$grid--column: 60px;
+$grid--gutter: math.div($grid--column, 3);
+$grid--unit:   ($grid--column + $grid--gutter);
+
+// Breakpoints
+$breakpoint--desktop: (15 * $grid--unit);
+$breakpoint--tablet:  (10 * $grid--unit);
+$breakpoint--phone:   (5 * $grid--unit);
+
+body {
+  margin: auto;
+}
+
+@media (min-width: $breakpoint--phone) {
+  body {
+    width: auto;
+  }
+}
+
+@media (min-width: $breakpoint--tablet) {
+  body {
+    width: $breakpoint--tablet;
+  }
+}
+
+@media (min-width: $breakpoint--desktop) {
+  body {
+    width: (12 * $grid--unit);
+  }
+}

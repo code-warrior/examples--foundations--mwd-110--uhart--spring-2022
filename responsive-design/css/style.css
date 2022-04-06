@@ -1,0 +1,21 @@
+body {
+  margin: auto;
+}
+
+@media (min-width: 400px) {
+  body {
+    width: auto;
+  }
+}
+@media (min-width: 800px) {
+  body {
+    width: 800px;
+  }
+}
+@media (min-width: 1200px) {
+  body {
+    width: 960px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
