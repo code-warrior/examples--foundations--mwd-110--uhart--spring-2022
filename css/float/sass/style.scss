@@ -1,0 +1,35 @@
+@import 'variables';
+
+body {
+  margin: auto;
+  width: $width--body;
+  color: $color--text;
+  font-family: $font-stack--text;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-stack--heads;
+}
+
+p {
+  span {
+    float: left;
+    font-style: italic;
+
+    width: 200px;
+    margin: 0 20px 6px -60px;
+
+    &::before {
+      content: "“";
+    }
+
+    &::after {
+      content: "”";
+    }
+  }
+}

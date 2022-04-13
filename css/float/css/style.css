@@ -1,0 +1,31 @@
+@charset "UTF-8";
+body {
+  margin: auto;
+  width: 800px;
+  color: #333;
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Alfa Slab One", cursive;
+}
+
+p span {
+  float: left;
+  font-style: italic;
+  width: 200px;
+  margin: 0 20px 6px -60px;
+}
+p span::before {
+  content: "“";
+}
+p span::after {
+  content: "”";
+}
+
+/*# sourceMappingURL=style.css.map */
