@@ -19,10 +19,13 @@ h6 {
 p {
   span {
     float: left;
-    font-style: italic;
+    font: {
+      style: italic;
+      weight: 700;
+    }
 
-    width: 200px;
-    margin: 0 20px 6px -60px;
+    width: 180px;
+    margin: 6px 14px 4px -40px;
 
     &::before {
       content: "“";
