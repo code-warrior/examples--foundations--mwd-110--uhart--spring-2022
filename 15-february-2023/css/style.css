@@ -1,0 +1,37 @@
+:root {
+  --default-width: 98px;
+}
+
+div {
+  border: 1px solid rgb(230, 230, 230);
+  width: var(--default-width);
+  height: var(--default-width);
+}
+
+div:nth-child(1) {
+  background-color: bisque;
+}
+
+div:nth-child(2) {
+  background-color: #000000;
+}
+
+div:nth-child(3) {
+  background-color: #333333;
+}
+
+div:nth-child(4) {
+  background-color: #111111;
+}
+
+div:nth-child(5) {
+  background-color: #000000;
+}
+
+div:nth-child(6) {
+  background-color: #777777;
+}
+
+div:nth-child(7) {
+  background-color: #ffffff;
+}
