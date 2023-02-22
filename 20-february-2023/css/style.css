@@ -1,0 +1,21 @@
+body {
+  background-color: red;
+  background-color: #ff0000;
+  background-color: #FF0000;
+  background-color: #f00;
+  background-color: #F00;
+  background-color: #ff0000ff;
+  background-color: #FF0000FF;
+  background-color: #f00f;
+  background-color: #F00F;
+  background-color: rgb(255, 0, 0);
+  background-color: rgba(255, 0, 0, 1);
+  background-color: rgb(100%, 0%, 0%);
+  background-color: rgba(100%, 0%, 0%, 100%);
+  background-color: hsl(0, 100%, 50%);
+  background-color: hsla(0, 100%, 50%, 100%);
+}
+
+.small-caps {
+  font-variant: small-caps;
+}
