@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.small-caps {
+  font-size: 1.75rem;
+  font-variant: small-caps;
+}
+
+div {
+  /* margin-top: 1px;
+  margin-right: 2px;
+  margin-bottom: 3px;
+  margin-left: 4px;
+
+  margin: 1px 2px 3px 4px; */
+
+  /* margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+
+  margin: 10px 20px 30px 20px;
+  margin: 10px 20px 30px; */
+
+  /* margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+
+  margin: 10px 20px 10px 20px;
+  margin: 10px 20px; */
+
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+
+  margin: 10px 10px 10px 10px;
+  margin: 10px 10px 10px;
+  margin: 10px 10px;
+  margin: 10px;
+
+  border: 2px solid transparent;
+  padding: 12px;
+  /* width and height are the content from the CSS box model */
+  width: 190px;
+  height: 190px;
+}
+
+div:nth-child(1) {
+  background-color: rgb(229, 248, 248);
+  border-color: red;
+}
+
+div:nth-child(2) {
+  background-color:rgb(228, 214, 241);
+  border-color: green;
+}
+
+div:nth-child(3) {
+  background-color:rgb(249, 244, 236);
+  border-color: blue;
+}
