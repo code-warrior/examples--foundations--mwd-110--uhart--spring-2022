@@ -1,0 +1,12 @@
+:root {
+  line-height: 1;  /* Set the size of the line box to the size of the font */
+  font-size: 24px; /* The default “rem” size of 16px is now 24px */
+}
+
+div {
+  font-size: 2rem; /* 2 × 24px = 48px */
+}
+
+section {
+  font-size: 2em;
+}
