@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Working with Dashes and the Hyphen</title>
+  <style>
+body {
+  height: 2000px;
+}
+
+.right,
+.wrong {
+  background-color: rgb(119, 228, 174);
+  border-radius: 4px;
+  padding: 11px 8px 8px;
+}
+
+.wrong {
+  background-color: pink;
+}
+
+.hanging-punctuation {
+  hanging-punctuation: first;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+blockquote::before {
+  content: "“";
+}
+
+blockquote::after {
+  content: "”";
+}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Working with Dashes and the Hyphen</h1>
+  </header>
+  <main>
+    <h2>The Hyphen</h2>
+    <p>Use the hyphen with hyphenated last names. For example:</p>
+    <p> <span class="example">Jennifer Rodriguez-Ghali</span></p>
+
+    <h2>The Figure Dash</h2>
+    <p>Use the figure dash with phone numbers. For example:</p>
+    <p><span class="wrong">(860) 768-5925</span></p>
+    <p><span class="right">(860) 768‒5925</span></p>
+
+    <h2>The En Dash</h2>
+    <p>Use the en dash to show through relationships, such as Monday through Friday, 9:00 AM through 5:00 PM, January through May, August through December. Example:</p>
+    <p><span class="wrong">Mon - Fri</span></p>
+    <p><span class="right">Mon – Fri</span></p>
+    <p><span class="wrong">9:00 AM - 5:00 PM</span></p>
+    <p><span class="right">9:00 AM – 5:00 PM</span></p>
+    <p><span class="wrong">Jan - May</span></p>
+    <p><span class="right">Jan – May</span></p>
+    <p><span class="wrong">Aug - Dec</span></p>
+    <p><span class="right">Aug – Dec</span></p>
+
+    <h2>The Em Dash</h2>
+    <p>Use the em dash where you might use parens (parentheses). It’s also used to sign a name. And, finally, as an expressive/dramatic final clause. Examples:</p>
+    <div>
+      <blockquote>Be yourself; everyone else is already taken.</blockquote>
+      <p class="hanging-punctuation"><span class="right">— Oscar Wilde (maybe)</span></p>
+      <p><span class="wrong">- Oscar Wilde (maybe)</span></p>
+    </div>
+    <div>
+      <p><span class="wrong">Sugar gliders are super cute animals - And they’re awesome!</span></p>
+      <p><span class="right">Sugar gliders are super cute animals — And they’re awesome!</span></p>
+      <p><span class="right">Sugar gliders are super cute animals, and they’re awesome!</span></p>
+      <p><span class="wrong">Sugar gliders are - super - cute animals, nd they’re awesome!</span></p>
+      <p><span class="right">Sugar gliders are — super — cute animals, and they’re awesome!</span></p>
+      <p><span class="right">Sugar gliders are (super) cute animals, and they’re awesome!</span></p>
+    </div>
+  </main>
+  <footer>
+    <p>Learn more about punctuation spaces <a href="https://github.com/code-warrior/punctuation-spaces">in this repo</a></p>
+  </footer>
+</body>
+</html>
