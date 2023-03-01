@@ -1,0 +1,30 @@
+body {
+  height: 2000px;
+}
+
+.right,
+.wrong {
+  background-color: rgb(119, 228, 174);
+  border-radius: 4px;
+  padding: 11px 8px 8px;
+}
+
+.wrong {
+  background-color: pink;
+}
+
+.hanging-punctuation {
+  hanging-punctuation: first;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+blockquote::before {
+  content: "“";
+}
+
+blockquote::after {
+  content: "”";
+}
