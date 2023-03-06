@@ -1,0 +1,7 @@
+p:nth-child(2) {
+  position: static;
+
+  /* Both of the offset properties below are ignored, because static does not observe offset properties */
+  top: 1000px;
+  left: 1000px;
+}
