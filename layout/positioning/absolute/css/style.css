@@ -1,0 +1,60 @@
+/*
+  Position: absolute
+
+  Stacking Context (z-index): Observed
+  Flow: Broken
+  Parent: First non-static ancestor, or the body element if one isn’t found
+  Offset properties (top, right, bottom, left): Observed
+  Scrolls: Yes
+*/
+
+body {
+  height: 200vh;
+}
+
+header,
+p {
+  text-align: center;
+}
+
+#the-sea {
+  position: relative;
+  width: 800px;
+  height: 600px;
+  margin: auto;
+  background: hsl(190, 76%, 87%) url('../img/sea.png');
+}
+
+img {
+  position: absolute;
+}
+
+img:nth-child(1),
+img:nth-child(2) {
+  top: 200px;
+}
+
+img:nth-child(3),
+img:nth-child(4) {
+  bottom: 120px;
+}
+
+img:nth-child(odd) {
+  transform: rotateY(180deg);
+}
+
+img:nth-child(1) {
+  left: 120px;
+}
+
+img:nth-child(2) {
+  right: 120px;
+}
+
+img:nth-child(3) {
+  left: 40px;
+}
+
+img:nth-child(4) {
+  right: 40px;
+}
