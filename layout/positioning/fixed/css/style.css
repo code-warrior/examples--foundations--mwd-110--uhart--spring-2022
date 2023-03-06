@@ -1,0 +1,28 @@
+body {
+  height: 2000px; /* So the page scrolls */
+  --nav-height: 60px;
+  --border-color: #ddd;
+}
+
+header {
+  margin-top: calc(var(--nav-height) + 20px);
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: var(--nav-height);
+  background-color: white;
+  border-bottom: 1px solid var(--border-color);
+}
+
+nav ul {
+  margin-left: -40px; /* Cancel the margin introduced by the browser */
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+}
