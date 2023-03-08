@@ -1,3 +1,7 @@
+:root {
+  font-size: 18px;
+}
+
 body {
   height: 2000px;
 }
@@ -27,4 +31,17 @@ blockquote::before {
 
 blockquote::after {
   content: "”";
+}
+
+#working-with-the-font-shortcut {
+  font-style: italic;
+  font-variant: small-caps;
+  font-weight: 100;
+  font-size: 1.2rem;
+  line-height: 1.4;
+  font-family: Poppins, sans-serif;
+
+  font: italic small-caps 100 1.2rem / 1.4 Poppins, sans-serif;
+
+  font: 1.2rem Poppins; /* Correct, because it has a font-size and a font-family */
 }
