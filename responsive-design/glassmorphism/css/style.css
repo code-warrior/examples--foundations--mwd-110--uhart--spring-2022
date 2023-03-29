@@ -1,0 +1,38 @@
+body {
+  width: calc(12 * var(--grid-unit));
+  margin: 0 auto;
+  color: var(--primary-color);
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: var(--light);
+  background: linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+}
+
+h2,
+h3,
+p:not(.cards-container > div > a > p),
+ul,
+.cards-container > div {
+  background-color: rgba(255, 255, 255, .25);
+  border-radius: var(--common-radius);
+}
+
+p,
+ul {
+  padding: var(--general-padding);
+}
+
+ul li {
+  margin-left: var(--grid-gutter);
+}
+
+section:not(:first-of-type) {
+  margin-top: 120px;
+}
+
+.fa-github,
+.fa-link,
+.fa-file-pdf {
+  font-size: calc(5 * 1rem);
+  color: var(--font-awesome-icon-color);
+  padding-top: calc(2 * var(--general-padding));
+}
